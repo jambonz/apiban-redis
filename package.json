@@ -1,0 +1,27 @@
+{
+  "name": "apiban-redis",
+  "version": "0.0.1",
+  "description": "APIBan client that populates a redis set with blacklisted IPs",
+  "main": "./bin/index.js",
+  "scripts": {
+    "jslint": "eslint bin"
+  },
+  "bin": {
+    "apiban-redis": "./bin/index.js"
+  },
+  "keywords": [
+    "APIBan",
+    "sip"
+  ],
+  "author": "Dave Horton",
+  "license": "MIT",
+  "dependencies": {
+    "bent": "^7.3.12",
+    "pino": "^7.8.0",
+    "redis": "^4.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
