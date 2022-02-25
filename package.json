@@ -4,7 +4,8 @@
   "description": "APIBan client that populates a redis set with blacklisted IPs",
   "main": "./bin/index.js",
   "scripts": {
-    "jslint": "eslint bin"
+    "jslint": "eslint bin",
+    "start": "node ./bin/index.js"
   },
   "bin": {
     "apiban-redis": "./bin/index.js"
